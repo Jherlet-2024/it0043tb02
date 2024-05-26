@@ -1,68 +1,252 @@
-h1{
-    color:white;
+*{
+margin: 0;
+padding:0;
+font-family: sans-serif;
+}
+body{
+    text-align: center;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5bbf58a6-1e85-4cfe-83fd-02df6f482b45/de8nlib-6bed7b3d-3d7e-4763-bb60-18f5ee0127fd.png/v1/fill/w_1024,h_652,q_80,strp/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjUyIiwicGF0aCI6IlwvZlwvNWJiZjU4YTYtMWU4NS00Y2ZlLTgzZmQtMDJkZjZmNDgyYjQ1XC9kZThubGliLTZiZWQ3YjNkLTNkN2UtNDc2My1iYjYwLTE4ZjVlZTAxMjdmZC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ZVgNGi61AOkC068E-wphWmAUW8amj0MiJySqDcMCVh8");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
 }
 img{
-    width: 50px;
-    height: 100px;
-    justify-content: center;
+    width: 150px;
+    margin: 0 auto;
+    transform: translateY(60px);
 }
-.details_darkblue{
-    background-color: aqua;
-    justify-content: center;
-    }
-.buttons-1{
-    display: inline-block;
-    justify-content: center;
-}
-.container_1{
-width: 100%;
-height: 600px;
-border: 1px solid red ;
-}
-.container-2{
-width: 100%;
-height: 600px;
-border:0.5px solid red;
-}
-.card-1 {
-    margin: 8px;
-    width: 32.6%;
-    height: 350px;
-    display: inline-block;
+.image{
     background-image: url(./background_image.png);
-    justify-content: center;
+    margin: 0px auto;
+    width: 400px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    
+    
 }
-.card-2{
-    width: 32.6%;
-    height: 350px;
+.container{
     display: inline-block;
-    background-image: url(./background_image.png);
+    margin-right: 10px;
+    width: 100%;
 }
-.card-3{
-    margin: 8px;
-    width: 32.6%;
-    height: 350px;
+
+.card-1{
+   
+    margin: 10px;
+    background-color:#FAC000;
     display: inline-block;
-    background-image: url(./background_image.png);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    filter: drop-shadow(9px 10px 4px);
+    vertical-align: top;
 
 }
-.card-4{
-    margin: 8px;
-    width: 32.6%;
-    height: 350px;
+.card-2{
+    margin: 10px;
+    background-color:#E46CCA;
     display: inline-block;
-    background-image: url(./background_image.png);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    filter: drop-shadow(9px 10px 4px);
+    vertical-align: top;
+    
+}
+.card-3{
+   
+    margin: 10px;
+    background-color:#624D4E;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    filter: drop-shadow(9px 10px 4px);
+    vertical-align: top;
+}
+.card-4{
+    
+    margin: 10px;
+    background-color:#1B539B;
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    filter: drop-shadow(9px 10px 4px);
+    vertical-align: top;
 }
 .card-5{
-    width: 32.6%;
-    height: 350px;
+    margin: 10px;
+    background-color:#E62829;
     display: inline-block;
-    background-image: url(./background_image.png);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    filter: drop-shadow(9px 10px 4px);
+    vertical-align: top;
 }
 .card-6{
-    margin: 8px;
-    width: 32.6%;
-    height: 350px;
+    margin: 10px;
+    background-color:#5E3515;
     display: inline-block;
-    background-image: url(./background_image.png);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    filter: drop-shadow(9px 10px 4px);
+    vertical-align: top;
 }
+
+.details-1{
+    margin-top: 150px;
+    text-align: center;
+    
+
+}
+.details-2{
+    margin-top: 160px;
+    text-align: center;
+    
+
+}
+.details-3{
+    margin-top: 140px;
+    text-align: center;
+    
+
+}
+.details-4{
+    margin-top: 120px;
+    text-align: center;
+    
+
+}
+.details-5{
+    margin-top: 180px;
+    text-align: center;
+    
+
+}
+.details-6{
+    margin-top: 155px;
+    text-align: center;
+    
+
+}
+.buttons-1{
+    margin-top: 20px;
+}
+.buttons-2{
+    margin-top: 40px;
+}
+.buttons-3{
+    margin-top: 55px;
+}
+.buttons-4{
+    margin-top: 20px;
+}
+.buttons-5{
+    margin-top: 70px;
+}
+.buttons-6{
+    margin-top: 70px;
+}
+.name{
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+.description{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.type{
+    display: inline-block;
+    text-align: center;
+}
+.type-electric{
+    display: inline-block;
+    text-align: center;
+    background-color: #FCD659;
+    padding: 10px;
+    border-radius: 7px;
+}
+.type-normal{
+    display: inline-block;
+    text-align: center;
+    background-color: #9FA19F;
+    background-size: 50%;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+.type-fairy{
+    display: inline-block;
+    text-align: center;
+    background-color: #EF70EF;
+    background-size: 50%;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+.type-water{
+    display: inline-block;
+    text-align: center;
+    background-color: #2980EF;
+    background-size: 50%;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+.type-fire{
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+    background-size: 50%;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+.type-ground{
+    display: inline-block;
+    text-align: center;
+    background-color: #915121;
+    background-size: 50%;
+    padding: 10px;
+    border-radius: 7px;
+
+}
+.add{
+    transition-duration: 0.4s;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    display: inline-block;
+    background-color: #008CBA;
+    border-radius: 12px;
+}
+.add:hover{
+    
+    
+    background-color:white;
+    border-color:#008CBA ;
+    
+}
+.release{
+    transition-duration: 0.4s;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    display: inline-block;
+    background-color: #04AA6D;
+    border-radius: 12px;
+}
+.release:hover{
+    background-color:white;
+    border-color:#04AA6D;
+}
+
