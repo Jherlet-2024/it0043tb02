@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f67167c8-ba7d-4c43-af04-e7d8be418ed2/d1paygs-5ae9ae2d-9f25-4d87-b17a-433c1772886a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y2NzE2N2M4LWJhN2QtNGM0My1hZjA0LWU3ZDhiZTQxOGVkMlwvZDFwYXlncy01YWU5YWUyZC05ZjI1LTRkODctYjE3YS00MzNjMTc3Mjg4NmEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.pW5eRJzCb8YhSTXpLekdV-1Gb-FFbLhfS9Lnxr5gZEI");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    visibility: hidden;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+img{
+    height: 380px;
+    width: 380px;
+}
+.pokeball{
+    display: none;
+}
+
+.card-1{
+ background-color: #9B870C;
+ margin: 20px;
+ padding: 20px;
+}
+.card-2{
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+}
+.card-3{
+    background-color: #40E0D0;
+    margin: 20px;
+    padding: 20px;
+}
+.card-4{
+    background-color: #CF9FFF;
+    margin: 20px;
+    padding: 20px;
+}
+.card-5{
+    background-color: #FFA500;
+    margin: 20px;
+    padding: 20px;
+}
+.card-6{
+    background-color: #ADD8E6;
+    margin: 20px;
+    padding: 20px;
+}
+.card-7{
+    background-color: #C36F29;
+    margin: 20px;
+    padding: 20px;
+}
+.card-8{
+    background-color: #C4A484;
+    margin: 20px;
+    padding: 20px;
+}
+.card-9{
+    background-color: #Ffc0cb;
+    margin: 20px;
+    padding: 20px;
+}
+.card-10{
+    background-color: #F9EBE2;
+    margin: 20px;
+    padding: 20px;
+}
+.card-11{
+    background-color: #d3d3d3;
+    margin: 20px;
+    padding: 20px;
+}
+.card-12{
+    background-color: #FFE5B4;
+    margin: 20px;
+    padding: 20px;
+}
+@media only screen and (max-width:1100px ){
+    
+    h1{
+        visibility: visible;
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+    img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+.pokeball{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+    
+    .card-1{
+        background-color: #9B870C;
+        margin: 20px;
+        padding: 20px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+       }
+       .card-2{
+           background-color: yellow;
+           margin: 20px;
+           padding: 20px;
+           width: 100%;
+       }
+       .card-3{
+           background-color: #40E0D0;
+           margin: 20px;
+           padding: 20px;
+           height: 30%;
+           width: 100%;
+       }
+       .card-4{
+           background-color: #CF9FFF;
+           margin: 20px;
+           padding: 20px;
+           width: 100%;
+       }
+       .card-5{
+           background-color: #FFA500;
+           margin: 20px;
+           padding: 20px;
+           width: 100%;
+       }
+       .card-6{
+           background-color: #ADD8E6;
+           margin: 20px;
+           padding: 20px;
+           width: 100%;
+       }
+       .card-7{
+           background-color: #C36F29;
+           margin: 20px;
+           padding: 20px;
+           width: 100%;
+       }
+       .card-8{
+           background-color: #C4A484;
+           margin: 20px;
+           padding: 20px;
+           width: 100%;
+       }
+       .card-9{
+           background-color: #Ffc0cb;
+           margin: 20px;
+           padding: 20px;
+           width: 100%;
+       }
+       .card-10{
+           background-color: #F9EBE2;
+           margin: 20px;
+           padding: 20px;
+           width: 100%;
+       }
+       .card-11{
+           background-color: #d3d3d3;
+           margin: 20px;
+           padding: 20px;
+           width: 100%;
+       }
+       .card-12{
+           background-color: #FFE5B4;
+           margin: 20px;
+           padding: 20px;
+           width: 100%;
+       }
+}
+@media only screen and (max-width:500px ){
+    
+    h1{
+        visibility: visible;
+        align-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-top: 50px;
+        text-shadow: 2px 2px black;
+    }
+    img{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.pokeball{
+    display: none;
+}
+
+    
+    .card-1{
+        background-color: #9B870C;
+        margin: 15px;
+        padding: 20px;
+        width: 300px;
+        height: 400px;
+        text-align: center;
+
+       }
+       .card-2{
+           background-color: yellow;
+           margin: 15px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+           
+       }
+       .card-3{
+           background-color: #40E0D0;
+           margin: 15px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+           
+       }
+       .card-4{
+           background-color: #CF9FFF;
+           margin: 20px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+       }
+       .card-5{
+           background-color: #FFA500;
+           margin: 20px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+         
+       }
+       .card-6{
+           background-color: #ADD8E6;
+           margin: 20px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+         
+       }
+       .card-7{
+           background-color: #C36F29;
+           margin: 20px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+           
+       }
+       .card-8{
+           background-color: #C4A484;
+           margin: 20px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+           
+       }
+       .card-9{
+           background-color: #Ffc0cb;
+           margin: 20px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+          
+       }
+       .card-10{
+           background-color: #F9EBE2;
+           margin: 20px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+           
+       }
+       .card-11{
+           background-color: #d3d3d3;
+           margin: 20px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+       }
+       .card-12{
+           background-color: #FFE5B4;
+           margin: 20px;
+           padding: 20px;
+           width: 300px;
+        height: 400px;
+        text-align: center;
+
+       }
+}
