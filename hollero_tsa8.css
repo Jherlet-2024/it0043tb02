@@ -26,25 +26,70 @@ body{
     white-space: normal;
     font-weight: 700;
     text-align: center;
-    padding: 17px 48px;
+    padding: 17px ;
     color: #fff;
     background-color: #1ED760;
     height: 48px;
+   
 }
 
 .button:hover{
     transform: scale(1.04);
     background-color: #21e065;
+
+}
+#numberOfGap{
+  margin-top: 10px;
+  padding-top: 10px;
+padding-bottom: 10px;
+}
+#number1{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+#number2{
+  padding-top: 10px;
+padding-bottom: 10px;
+}
+#number3{
+  padding-top: 10px;
+padding-bottom: 10px;
 }
 .functions{
-    margin-left: 200px;
+  display: flex;
+  justify-content: center;
+}
+.Group1{
+ color: #fff;
+  text-align: center;
+  background-image: url("Whiteboard-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.Group2{
+  color: #fff;
+  text-align: center;
+  background-image: url("Whiteboard-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
 }
 .simulation{
+    color: aquamarine;
     display: flex;
-    margin-top: 20px;
-    height: 900px;
-    width: 900px;
-    border-style: solid;
+    height: 740px;
+    width: 700px;
+    font-weight: 900;
+    background-image: url("Whiteboard-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
 
 }
 .box-1{
@@ -57,6 +102,7 @@ body{
   font-size: 30px;
   border-style: solid;
   border-color: lightcoral;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .box-2{
     background-color: yellow;
@@ -67,6 +113,7 @@ body{
     font-size: 30px;
     border-style: solid;
     border-color: lightcoral;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   }
   .box-3{
     background-color: blue;
@@ -77,4 +124,8 @@ body{
     font-size: 30px;
     border-style: solid;
     border-color: lightcoral;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  input[type="number"]{
+    text-align: center;
   }
