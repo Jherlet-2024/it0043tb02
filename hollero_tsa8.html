@@ -8,10 +8,11 @@
 </head>
 <body>
     <div class="functions">
-
+     
+    <div class="Group1">
     <button class="button" onclick="Reset()">Reset Flexbox</button><br>
-    <button class="button">Gap</button>
-    <input type="number" id="number" name="number" min="0" placeholder="0">
+    <button class="button" onclick="Gap()">Gap</button>
+    <input type="number" id="numberOfGap" name="number" min="0" placeholder="0">
 
     <h1>Flex Direction</h1>
     <button class="button" onclick="FlexRow()">Row</button>
@@ -24,7 +25,8 @@
     <button class="button" onclick="SpaceBetween()">Space Between</button><br>
     <button class="button" onclick="SpaceAround()">Space Around</button>
     <button class="button" onclick="SpaceEvenly()">Space Evenly</button><br>
-
+    </div>
+    <div class="Group2">
     <h1>Align Items</h1>
     <button class="button" onclick="AlignStart()">Start</button>
     <button class="button" onclick="AlignCenter()">Center</button>
@@ -33,18 +35,18 @@
     <h1>Flex Grow</h1>
     <button class="button">Reset</button>
     <button class="button">Grow All</button><br>
-
-    <button class="button">Box 1</button>
-    <input type="number" id="number" name="number" min="0" placeholder="0"><br>
-    <button class="button">Box 2</button>
-    <input type="number" id="number" name="number" min="0" placeholder="0"><br>
-    <button class="button">Box 3</button>
-    <input type="number" id="number" name="number" min="0" placeholder="0">
+    
+    <button class="button" onclick="Box1()">Box 1</button>
+    <input type="number" id="number1" name="number" min="0" placeholder="0"><br>
+    <button class="button" onclick="Box2()">Box 2</button>
+    <input type="number" id="number2" name="number" min="0" placeholder="0"><br>
+    <button class="button" onclick="Box3()">Box 3</button>
+    <input type="number" id="number3" name="number" min="0" placeholder="0">
 </div>
 <div class="simulation" id="simulation">
-<div class="box-1">1</div>
-<div class="box-2">2</div>
-<div class="box-3">3</div>
+<div class="box-1" id="boxone">1</div>
+<div class="box-2" id="boxtwo">2</div>
+<div class="box-3" id="boxthree">3</div>
 </div>
 
 
